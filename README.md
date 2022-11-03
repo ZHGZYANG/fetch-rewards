@@ -35,7 +35,7 @@
 
 * When attempted points is negative, the request will be denied if it makes balance negative. To enforce the request, add `force=true` in request body, then this payer’s balance will be 0.
 
-**Request body: **
+**Request body:**
 
 ```
 payer: string
@@ -72,7 +72,7 @@ force: optional
 
 ##### POST /spend
 
-**Request body: **
+**Request body:**
 
 ```
 points: integer
